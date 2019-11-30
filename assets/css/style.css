@@ -47,7 +47,7 @@ body {
 .maindiv {
     background-color: rgb(255, 255, 255);
     width: 960px;
-    height: 500px;
+    height: 600px;
     margin: auto;
     margin-top: 90px;
     border-style: solid;
@@ -101,7 +101,6 @@ p {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    transition-duration: 0.9s;
     border-style: solid;
     border-width: 0px 1px 0px 0px;
     border-color: #cccccc;
@@ -123,8 +122,6 @@ p {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    transition-duration: 0.9s;
-    
     
   }
 
@@ -143,7 +140,6 @@ p {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    transition-duration: 0.9s;
     border-style: solid;
     border-width: 0px 1px 0px 0px;
     border-color: #cccccc;
@@ -164,7 +160,7 @@ p {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    transition-duration: 0.9s;
+    
     }
 
   .submit-btn:hover {
