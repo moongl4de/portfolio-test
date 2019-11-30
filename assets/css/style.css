@@ -8,7 +8,6 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;  
 }
 
-
 .heading {
     width: 100%;
     height: 80px;
@@ -41,8 +40,6 @@ body {
     font-size: 22px;
     padding-top: 24px;
     }
-
-
 
 .maindiv {
     background-color: rgb(255, 255, 255);
@@ -104,16 +101,16 @@ p {
     border-style: solid;
     border-width: 0px 1px 0px 0px;
     border-color: #cccccc;
-  }
+}
 
-  .about-btn:hover {
+.about-btn:hover {
     background-color: #4aaaa5;
     color: white;
     box-shadow: 0px 0px 20px 12px rgba(32, 32, 32, 0.144);
-  }
+}
   
 
-  .contact-btn {
+.contact-btn {
     background-color: #ffffff00;
     border: none;
     color: rgb(117, 117, 117);
@@ -123,15 +120,15 @@ p {
     display: inline-block;
     font-size: 16px;
     
-  }
+}
 
-  .contact-btn:hover {
+.contact-btn:hover {
     background-color: #4aaaa5;
     color: white;
     box-shadow: 0px 0px 20px 12px rgba(32, 32, 32, 0.144);
-  }
+}
 
-  .portfolio-btn {
+.portfolio-btn {
     background-color: #ffffff00;
     border: none;
     color: rgb(117, 117, 117);
@@ -143,15 +140,15 @@ p {
     border-style: solid;
     border-width: 0px 1px 0px 0px;
     border-color: #cccccc;
-  }
+}
 
-  .portfolio-btn:hover {
+.portfolio-btn:hover {
     background-color: #4aaaa5;
     color: white;
     box-shadow: 0px 0px 20px 12px rgba(32, 32, 32, 0.144);
-  }
+}
 
-  .submit-btn {
+.submit-btn {
     background-color: #ffffff00;
     border: none;
     color: rgb(117, 117, 117);
@@ -161,33 +158,32 @@ p {
     display: inline-block;
     font-size: 16px;
     
-    }
+}
 
-  .submit-btn:hover {
+.submit-btn:hover {
     background-color: #4aaaa5;
     color: white;
     box-shadow: 0px 0px 20px 12px rgba(32, 32, 32, 0.144);
-   }
+}
 
-  #message {
+#message {
       width: 99%;
       height: 100px;
       padding: 8px;
       border: 1px solid rgba(224, 224, 224, 0.397);
-  }
+}
 
-  #name {
+#name {
     width: 99%;
     padding: 8px;
     border: 1px solid rgba(224, 224, 224, 0.397);
-  }
+}
 
-  #email {
+#email {
     width: 99%;
     padding: 8px;
     border: 1px solid rgba(224, 224, 224, 0.397);
-  }
-
+}
 
 .portfolio-main {
     background-color: rgb(255, 255, 255);
@@ -304,7 +300,6 @@ p {
     font-family:'Georgia', Times, 'Times New Roman', serif;
     font-weight: bold;
     margin-left: 12px;
-    
 }
 
 /*I cannot for the life of me figure out why my code won't work correctly... So I'm resorting to this cheap, albeit effective, solution */
