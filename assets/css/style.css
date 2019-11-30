@@ -3,7 +3,7 @@ body {
     padding: 0px;
     background-color: rgb(201, 201, 201);
     width: 100%;
-    background-image: url(/assets/images/prism.png);
+    background-image: url(../images/prism.png);
     height: 100%;   
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;  
 }
