@@ -1,0 +1,319 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(201, 201, 201);
+    width: 100%;
+    background-image: url(/assets/images/prism.png);
+    height: 100%;   
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;  
+}
+
+
+.heading {
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    position: absolute;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: #cccccc;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+    }
+
+#about {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 12px;
+    margin-top: 12px;
+    }    
+
+.namebox {
+    width: 185px;
+    height: 56px;
+    background-color: #4aaaa5;
+    position: absolute;
+    left: 300px;
+    color: rgb(255, 255, 255);
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 24px;
+    }
+
+
+
+.maindiv {
+    background-color: rgb(255, 255, 255);
+    width: 960px;
+    height: 500px;
+    margin: auto;
+    margin-top: 90px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    color: #4aaaa5;
+    padding: 24px;
+    clear: both;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-bottom:100px;
+}
+
+.nav {
+    float: right;
+    position: absolute;
+    right: 280px;
+    clear: right;
+    padding-top: 15px;
+}
+
+.footer {
+    width: 100%;
+    height: 30px;
+    background-color: #666666;
+    position: sticky;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    padding-top: 12px;
+    font-size: 12px;
+    border-top: 8px solid #4aaaa5;
+    clear: both;
+    margin-top:375px;
+}
+
+.picture {
+    margin: 10px;
+    float: left;
+}
+
+p {
+    line-height: 30px;
+}
+
+.about-btn {
+    background-color: #ffffff00;
+    border: none;
+    color: rgb(117, 117, 117);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.9s;
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #cccccc;
+  }
+
+  .about-btn:hover {
+    background-color: #4aaaa5;
+    color: white;
+    box-shadow: 0px 0px 20px 12px rgba(32, 32, 32, 0.144);
+  }
+  
+
+  .contact-btn {
+    background-color: #ffffff00;
+    border: none;
+    color: rgb(117, 117, 117);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.9s;
+    
+    
+  }
+
+  .contact-btn:hover {
+    background-color: #4aaaa5;
+    color: white;
+    box-shadow: 0px 0px 20px 12px rgba(32, 32, 32, 0.144);
+  }
+
+  .portfolio-btn {
+    background-color: #ffffff00;
+    border: none;
+    color: rgb(117, 117, 117);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.9s;
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #cccccc;
+  }
+
+  .portfolio-btn:hover {
+    background-color: #4aaaa5;
+    color: white;
+    box-shadow: 0px 0px 20px 12px rgba(32, 32, 32, 0.144);
+  }
+
+  .submit-btn {
+    background-color: #ffffff00;
+    border: none;
+    color: rgb(117, 117, 117);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.9s;
+    }
+
+  .submit-btn:hover {
+    background-color: #4aaaa5;
+    color: white;
+    box-shadow: 0px 0px 20px 12px rgba(32, 32, 32, 0.144);
+   }
+
+  #message {
+      width: 99%;
+      height: 100px;
+      padding: 8px;
+      border: 1px solid rgba(224, 224, 224, 0.397);
+  }
+
+  #name {
+    width: 99%;
+    padding: 8px;
+    border: 1px solid rgba(224, 224, 224, 0.397);
+  }
+
+  #email {
+    width: 99%;
+    padding: 8px;
+    border: 1px solid rgba(224, 224, 224, 0.397);
+  }
+
+
+.portfolio-main {
+    background-color: rgb(255, 255, 255);
+    width: 960px;
+    height: 750px;
+    margin: auto;
+    margin-top: 90px;
+    border-color: rgb(255, 255, 255);
+    color: #4aaaa5;
+    padding: 20px;
+    clear: both;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-bottom:100px;
+}
+
+.wow {
+    float: left;
+    margin: 20px 12px 0px 12px;
+}
+
+.wowbox {
+    width: 200px;
+    height: 35px;
+    background-color: teal;
+    text-align: center;
+    padding-top: 17px;
+    color: white;
+    opacity: 0.9;
+    position: relative;
+    bottom: 55px;
+    clear: right;
+}
+
+.deathstar {
+    float: left;
+    margin: 20px 12px -50px 12px;
+}
+
+.deathstarbox {
+    width: 200px;
+    height: 35px;
+    background-color: teal;
+    text-align: center;
+    padding-top: 17px;
+    color: white;
+    opacity: 0.9;
+    position: relative;
+    bottom: 55px;
+    clear: right;
+}
+
+.skyrim {
+    float: left;
+    margin: -30px 12px 0px 12px;
+}
+
+.skyrimbox {
+    width: 200px;
+    height: 35px;
+    background-color: teal;
+    text-align: center;
+    padding-top: 17px;
+    color: white;
+    opacity: 0.9;
+    position: relative;
+    bottom: 55px;
+    clear: right;
+}
+
+.hawking {
+    float: left;
+    margin: -30px 12px 0px 12px;
+    
+}
+
+.hawkingbox {
+    width: 200px;
+    height: 42px;
+    background-color: teal;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    opacity: 0.9;
+    position: relative;
+    bottom: 55px;
+    clear: right;
+}
+
+.galaxy {
+    float: left;
+    margin: -30px 12px 0px 12px;
+}
+
+.galaxybox {
+    width: 200px;
+    height: 35px;
+    background-color: teal;
+    text-align: center;
+    padding-top: 17px;
+    color: white;
+    opacity: 0.9;
+    position: relative;
+    bottom: 55px;
+    clear: right;
+}
+
+.empty {
+    padding: 0px;
+    margin: 0px;
+}
+
+#portfolio {
+    font-size: 32px;
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin-left: 12px;
+    
+}
+
+/*I cannot for the life of me figure out why my code won't work correctly... So I'm resorting to this cheap, albeit effective, solution */
+#thisistotallythewrongwaytodothislol {
+    height: 12px;
+    background-color: rgb(255, 255, 255);
+
+}
