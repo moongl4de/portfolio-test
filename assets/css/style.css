@@ -1,3 +1,5 @@
+/* My aplogies for the messy code... Still learning, as you can tell! */
+
 body {
     margin: 0px;
     padding: 0px;
@@ -33,7 +35,7 @@ body {
     height: 56px;
     background-color: #4aaaa5;
     position: absolute;
-    left: 300px;
+    left: 280px;
     color: rgb(255, 255, 255);
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     text-align: center;
@@ -77,8 +79,9 @@ body {
     font-size: 12px;
     border-top: 8px solid #4aaaa5;
     clear: both;
-    margin-top:375px;
+    margin-top:185px;
 }
+
 
 .picture {
     margin: 10px;
@@ -201,7 +204,7 @@ p {
 
 .wow {
     float: left;
-    margin: 20px 12px 0px 12px;
+    margin: 20px 25px 0px 12px;
 }
 
 .wowbox {
@@ -213,7 +216,7 @@ p {
     color: white;
     opacity: 0.9;
     position: relative;
-    bottom: 55px;
+    bottom: 70px;
     clear: right;
 }
 
@@ -231,13 +234,13 @@ p {
     color: white;
     opacity: 0.9;
     position: relative;
-    bottom: 55px;
+    bottom: 70px;
     clear: right;
 }
 
 .skyrim {
     float: left;
-    margin: -30px 12px 0px 12px;
+    margin: -30px 25px 0px 12px;
 }
 
 .skyrimbox {
@@ -249,7 +252,7 @@ p {
     color: white;
     opacity: 0.9;
     position: relative;
-    bottom: 55px;
+    bottom: 70px;
     clear: right;
 }
 
@@ -268,7 +271,7 @@ p {
     color: white;
     opacity: 0.9;
     position: relative;
-    bottom: 55px;
+    bottom: 70px;
     clear: right;
 }
 
@@ -286,7 +289,7 @@ p {
     color: white;
     opacity: 0.9;
     position: relative;
-    bottom: 55px;
+    bottom: 70px;
     clear: right;
 }
 
@@ -303,7 +306,7 @@ p {
 }
 
 /*I cannot for the life of me figure out why my code won't work correctly... So I'm resorting to this cheap, albeit effective, solution */
-#thisistotallythewrongwaytodothislol {
+#this-is-totally-the-wrong-way-to-do-this-lol {
     height: 12px;
     background-color: rgb(255, 255, 255);
 
