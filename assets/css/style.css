@@ -83,10 +83,14 @@ body {
     margin-top:185px;
 }
 
-
 .picture {
     margin: 10px;
     float: left;
+}
+
+.picture:hover {
+    filter: blur(5px);
+    transition: .75s;
 }
 
 p {
@@ -115,7 +119,6 @@ p {
     transition-duration: .75s;
     font-size: 16px;
 }
-  
 
 .contact-btn {
     background-color: #ffffff00;
@@ -166,8 +169,6 @@ p {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-   
-    
 }
 
 .submit-btn:hover {
