@@ -28,6 +28,7 @@ body {
     font-weight: bold;
     margin-left: 12px;
     margin-top: 12px;
+    color: #4aaaa5;
     }    
 
 .namebox {
@@ -104,13 +105,15 @@ p {
     border-style: solid;
     border-width: 0px 1px 0px 0px;
     border-color: #cccccc;
+    
 }
 
 .about-btn:hover {
     background-color: #4aaaa5;
     color: white;
-    box-shadow: 0px 0px 20px 12px rgba(32, 32, 32, 0.144);
-    transition-duration: 1s;
+    box-shadow: 0px 0px 8px 5px #4aaaa567;
+    transition-duration: .75s;
+    font-size: 16px;
 }
   
 
@@ -129,8 +132,8 @@ p {
 .contact-btn:hover {
     background-color: #4aaaa5;
     color: white;
-    box-shadow: 0px 0px 20px 12px rgba(32, 32, 32, 0.144);
-    transition-duration: 1s;
+    box-shadow: 0px 0px 8px 5px #4aaaa567;
+    transition-duration: .75s;
 }
 
 .portfolio-btn {
@@ -150,8 +153,8 @@ p {
 .portfolio-btn:hover {
     background-color: #4aaaa5;
     color: white;
-    box-shadow: 0px 0px 20px 12px rgba(32, 32, 32, 0.144);
-    transition-duration: 1s;
+    box-shadow: 0px 0px 8px 5px #4aaaa567;
+    transition-duration: .75s;
 }
 
 .submit-btn {
@@ -163,14 +166,15 @@ p {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    transition-duration: 1s;
+   
     
 }
 
 .submit-btn:hover {
     background-color: #4aaaa5;
     color: white;
-    box-shadow: 0px 0px 20px 12px rgba(32, 32, 32, 0.144);
+    box-shadow: 0px 0px 8px 5px #4aaaa567;
+    transition-duration: .75s;
 }
 
 #message {
@@ -209,6 +213,7 @@ p {
 .wow {
     float: left;
     margin: 20px 25px 0px 12px;
+    opacity: 0.7;
 }
 
 .wowbox {
@@ -224,9 +229,15 @@ p {
     clear: right;
 }
 
+.wow:hover{
+    opacity: 1;
+    transition: .75s;
+}
+
 .deathstar {
     float: left;
     margin: 20px 12px -50px 12px;
+    opacity: 0.7;
 }
 
 .deathstarbox {
@@ -242,9 +253,15 @@ p {
     clear: right;
 }
 
+.deathstar:hover{
+    opacity: 1;
+    transition: .75s;
+}
+
 .skyrim {
     float: left;
     margin: -30px 25px 0px 12px;
+    opacity: 0.7;
 }
 
 .skyrimbox {
@@ -260,10 +277,15 @@ p {
     clear: right;
 }
 
+.skyrim:hover{
+    opacity: 1;
+    transition: .75s;
+}
+
 .hawking {
     float: left;
     margin: -30px 12px 0px 12px;
-    
+    opacity: 0.7;
 }
 
 .hawkingbox {
@@ -279,9 +301,15 @@ p {
     clear: right;
 }
 
+.hawking:hover{
+    opacity: 1;
+    transition: .75s;
+}
+
 .galaxy {
     float: left;
     margin: -30px 12px 0px 12px;
+    opacity: 0.7;
 }
 
 .galaxybox {
@@ -295,6 +323,11 @@ p {
     position: relative;
     bottom: 70px;
     clear: right;
+}
+
+.galaxy:hover{
+    opacity: 1;
+    transition: .75s;
 }
 
 .empty {
