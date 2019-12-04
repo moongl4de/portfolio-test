@@ -20,7 +20,7 @@ body {
     border-color: #cccccc;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-weight: bold;
-    }
+}
 
 #about {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -29,7 +29,22 @@ body {
     margin-left: 12px;
     margin-top: 12px;
     color: #4aaaa5;
-    }    
+}    
+
+#about:hover{
+    color: #777;
+    transition: .5s;
+}
+
+#portfolio:hover{
+    color: #777;
+    transition: .5s;
+}
+
+#contact:hover{
+    color: #777;
+    transition: .5s;
+}
 
 .namebox {
     width: 185px;
@@ -42,7 +57,12 @@ body {
     text-align: center;
     font-size: 22px;
     padding-top: 24px;
-    }
+}
+
+.namebox:hover{
+    box-shadow: 0px 0px 10px black;
+    transition: .75s;
+}
 
 .maindiv {
     background-color: rgb(255, 255, 255);
@@ -58,6 +78,11 @@ body {
     clear: both;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin-bottom:100px;
+}
+
+.maindiv:hover {
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.288));
+    transition: .75s;
 }
 
 .nav {
@@ -86,11 +111,6 @@ body {
 .picture {
     margin: 10px;
     float: left;
-}
-
-.picture:hover {
-    filter: blur(5px);
-    transition: .75s;
 }
 
 p {
@@ -211,10 +231,16 @@ p {
     margin-bottom:100px;
 }
 
+.portfolio-main:hover{
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.288));
+    transition: .75s;
+}
+
 .wow {
     float: left;
     margin: 20px 25px 0px 12px;
     opacity: 0.7;
+    filter: blur(1.5px);  
 }
 
 .wowbox {
@@ -232,13 +258,15 @@ p {
 
 .wow:hover{
     opacity: 1;
-    transition: .75s;
+    transition: .3s;
+    filter: blur(0px); 
 }
 
 .deathstar {
     float: left;
     margin: 20px 12px -50px 12px;
     opacity: 0.7;
+    filter: blur(1.5px); 
 }
 
 .deathstarbox {
@@ -256,13 +284,15 @@ p {
 
 .deathstar:hover{
     opacity: 1;
-    transition: .75s;
+    transition: .3s;
+    filter: blur(0px); 
 }
 
 .skyrim {
     float: left;
     margin: -30px 25px 0px 12px;
     opacity: 0.7;
+    filter: blur(1.5px); 
 }
 
 .skyrimbox {
@@ -280,13 +310,15 @@ p {
 
 .skyrim:hover{
     opacity: 1;
-    transition: .75s;
+    transition: .3s;
+    filter: blur(0px); 
 }
 
 .hawking {
     float: left;
     margin: -30px 12px 0px 12px;
     opacity: 0.7;
+    filter: blur(1.5px); 
 }
 
 .hawkingbox {
@@ -304,13 +336,15 @@ p {
 
 .hawking:hover{
     opacity: 1;
-    transition: .75s;
+    transition: .3s;
+    filter: blur(0px); 
 }
 
 .galaxy {
     float: left;
     margin: -30px 12px 0px 12px;
     opacity: 0.7;
+    filter: blur(1.5px); 
 }
 
 .galaxybox {
@@ -328,7 +362,8 @@ p {
 
 .galaxy:hover{
     opacity: 1;
-    transition: .75s;
+    transition: .3s;
+    filter: blur(0px); 
 }
 
 .empty {
@@ -347,5 +382,4 @@ p {
 #this-is-totally-the-wrong-way-to-do-this-lol {
     height: 12px;
     background-color: rgb(255, 255, 255);
-
 }
