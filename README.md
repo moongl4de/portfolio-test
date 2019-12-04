@@ -1,1 +1,1 @@
-# portfolio
+This is my portfolio! I did my best to duplicate the example given in the instructions, although I did take some artistic liberties, such as navbar buttons with hover effects and hover reveal/opacity for my portfolio projects.
