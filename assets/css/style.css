@@ -60,8 +60,9 @@ body {
 }
 
 .namebox:hover{
-    box-shadow: 0px 0px 10px black;
-    transition: .75s;
+    transition: 3s;
+    background-color: rgba(119, 119, 119, 0);
+    color: #58c5c0;
 }
 
 .maindiv {
