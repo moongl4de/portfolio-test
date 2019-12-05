@@ -260,8 +260,8 @@ p {
 
 .wow:hover{
     opacity: 1;
-    transition: .3s;
-    filter: blur(0px); 
+    transition: .2s;
+    filter: blur(0px);
 }
 
 .deathstar {
@@ -286,7 +286,7 @@ p {
 
 .deathstar:hover{
     opacity: 1;
-    transition: .3s;
+    transition: .2s;
     filter: blur(0px); 
 }
 
@@ -312,7 +312,7 @@ p {
 
 .skyrim:hover{
     opacity: 1;
-    transition: .3s;
+    transition: .2s;
     filter: blur(0px); 
 }
 
@@ -338,7 +338,7 @@ p {
 
 .hawking:hover{
     opacity: 1;
-    transition: .3s;
+    transition: .2s;
     filter: blur(0px); 
 }
 
@@ -364,7 +364,7 @@ p {
 
 .galaxy:hover{
     opacity: 1;
-    transition: .3s;
+    transition: .2s;
     filter: blur(0px); 
 }
 
