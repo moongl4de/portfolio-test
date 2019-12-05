@@ -135,9 +135,8 @@ p {
 .about-btn:hover {
     background-color: #4aaaa5;
     color: white;
-    box-shadow: 0px 0px 8px 5px #4aaaa567;
-    transition-duration: .75s;
-    font-size: 16px;
+    box-shadow: 0px 0px 10px 2px #c0c0c0;
+    transition-duration: 1.7s;
 }
 
 .contact-btn {
@@ -149,14 +148,14 @@ p {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    
+    margin-left: -4px;
 }
 
 .contact-btn:hover {
     background-color: #4aaaa5;
     color: white;
-    box-shadow: 0px 0px 8px 5px #4aaaa567;
-    transition-duration: .75s;
+    box-shadow: 0px 0px 10px 2px #c0c0c0;
+    transition-duration: 1.7s;
 }
 
 .portfolio-btn {
@@ -171,13 +170,14 @@ p {
     border-style: solid;
     border-width: 0px 1px 0px 0px;
     border-color: #cccccc;
+    margin-left: -4px;
 }
 
 .portfolio-btn:hover {
     background-color: #4aaaa5;
     color: white;
-    box-shadow: 0px 0px 8px 5px #4aaaa567;
-    transition-duration: .75s;
+    box-shadow: 0px 0px 10px 2px #c0c0c0;
+    transition-duration: 1.7s;
 }
 
 .submit-btn {
